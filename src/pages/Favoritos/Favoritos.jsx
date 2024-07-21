@@ -4,7 +4,7 @@ import Card from "../../components/Card/Card";
 import Titulo from "../../components/Titulo/Titulo";
 import { useFavoritosContext } from "../../contextos/FavoritosContext";
 import Botao from "../../components/Button/Button";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const ContainerCard = styled.div`
     display: flex;
@@ -24,6 +24,16 @@ const DivBotao = styled.div`
     flex-direction: column;
     align-items: center;
 `
+const LinkEstilizado = styled(Link)`
+    text-decoration: none;
+    font-size: 26px;
+    margin: 20px ;
+    color: #a905b8;
+    cursor: pointer;
+    &:hover{
+        font-weight: bold;
+    }
+`
 
 export default function Favoritos() {
     const { listaFavoritos, alternarFavorito } = useFavoritosContext();
@@ -33,10 +43,12 @@ export default function Favoritos() {
         <>
             <Banner imagem='bannerRoxo' />
             <Titulo> Meus Favoritos </Titulo>
+            <LinkEstilizado to={'/'}> {'<<< Voltar'} </LinkEstilizado>
             <ContainerCard>
                 {listaFavoritos.map(item => {
                     return <Card
                         key={item.id}
+                        id={item.id}
                         capa={item.capa}
                         titulo={item.titulo}
                         isFavorito={true}

@@ -1,28 +1,26 @@
-{
-    "videos": [
-        {
-            "id": 1,
-            "titulo": "O labirinto do Logcat",
-            "capa": "https://cdn3.gnarususercontent.com.br/2802-react-praticando/img2.png",
-            "link": "https://www.youtube.com/embed/ypvGqZGJBls"
-        },
-        {
-            "id": 2,
-            "titulo": "Um componente no espaço",
-            "capa": "https://cdn3.gnarususercontent.com.br/2802-react-praticando/img1.png",
-            "link": "https://www.youtube.com/embed/jK0uiQ1ZQQQ"
-        },
-        {
-            "id": 3,
-            "titulo": "O poderoso JavaScript",
-            "capa": "https://cdn3.gnarususercontent.com.br/2802-react-praticando/img4.png",
-            "link": "https://www.youtube.com/embed/N1BSG02z-Mw"
-        },
-        {
-            "id": 4,
-            "titulo": "Dart, o Caçador de Andróides",
-            "capa": "https://cdn3.gnarususercontent.com.br/2802-react-praticando/img3.png",
-            "link": "https://www.youtube.com/embed/LLmBWjF6F8M"
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "titulo": "O Jogo da Imitação",
+        "capa": "./assets/JogoDaImitacao.png",
+        "link": "https://www.youtube.com/embed/YIkKbMcJL_4?si=AVkES4zPTyVY6_o6"
+    },
+    {
+        "id": 2,
+        "titulo": "O Conde de Monte Cristo",
+        "capa": "./assets/CondeDeMonteCristo.png",
+        "link": "https://www.youtube.com/embed/fHaAAMgV7F4?si=sWXuT8p09cRdRE1-"
+    },
+    {
+        "id": 3,
+        "titulo": "Snowden: Herói ou Traidor",
+        "capa": "./assets/Snowden.png",
+        "link": "https://www.youtube.com/embed/QlSAiI3xMh4?si=cctlfDU4HUBDICEn"
+    },
+    {
+        "id": 4,
+        "titulo": "Som da Liberdade",
+        "capa": "./assets/SomDaLiberdade.png",
+        "link": "https://www.youtube.com/embed/xQFVX5_NOC8?si=8qO8x59Yz_juAz7Y"
+    }
+]
